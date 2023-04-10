@@ -31,7 +31,7 @@ package Day02;
 			System.out.println(a5);
 			
 			
-			double a6=23456.34567890d;
+			double a6=23456.34567890;
 			System.out.println(a6);
 			
 			

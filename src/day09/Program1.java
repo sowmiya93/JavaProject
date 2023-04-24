@@ -1,12 +1,25 @@
 package day09;
-
+import java.util.Scanner;
 public class Program1 {
 
 	public static void main(String[] args) {
-		System.out.println("Start Program...!");
-		int a=10;
-		int b=100;
-		int c=50;
+		System.out.println("Program comparing three Numbers");
+
+		 Scanner scanner=new Scanner(System.in);
+
+		 System.out.println("Enter the a");
+
+		 int a=scanner.nextInt();
+
+		 System.out.println("Enter the b ");
+
+		 int b=scanner.nextInt();
+
+		 System.out.println("Enter the c ");
+
+		 int c=scanner.nextInt();
+
+		 scanner.close();
 
 		if((a>b)&&(a>c))
 		{
@@ -23,3 +36,4 @@ public class Program1 {
 	}
 
 }
+

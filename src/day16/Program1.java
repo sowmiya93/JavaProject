@@ -19,7 +19,7 @@ public class Program1 {
     Scanner scan = new Scanner(System.in);
     System.out.println("enter the  numbers  in collection");
 	int n=scan.nextInt();
-	
+	scan.close();
 	System.out.println("enter the collection values values");
 	for (int i=0;i<n;i++)
 	{

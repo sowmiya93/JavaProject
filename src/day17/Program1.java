@@ -1,5 +1,4 @@
 package day17;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 
@@ -19,7 +18,7 @@ public class Program1 {
 		x.addAll(Arrays.asList("ab","bc","cd"));
 		System.out.println(x);
 		
-		for(String y:x)// in normal  for loop is not workout here,for each is to get the values in set
+		for(String y:x)// in normal  for loop is not work out here,for each is to get the values in set.
 		{
 			System.out.println(y);
 		}
